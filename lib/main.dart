@@ -7,11 +7,11 @@ void main() {
       home: Scaffold (
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          backgroundColor: Colors.lightGreen,
+          backgroundColor: Colors.,
           centerTitle: true,
           title: Text('I Am Happy'),
         ),
-      body: Center(
+      body: const Center(
         child: Image(
           image: AssetImage ('images/pablo-winter.png'),
         ),
